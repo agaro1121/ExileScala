@@ -2,7 +2,7 @@ package com.github.czelkowi.exilescala.converters
 
 import java.util.Date
 
-import com.github.czelkowi.exilescala.model.ChangeSet
+import com.github.czelkowi.exilescala.models.ChangeSet
 import com.mongodb.DBObject
 import com.mongodb.casbah.commons.MongoDBObject
 

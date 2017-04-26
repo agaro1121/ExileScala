@@ -1,20 +1,25 @@
 package com.github.czelkowi.exilescala
 
-import com.github.czelkowi.exilescala.mongo.ChangeSetDao
+import com.github.czelkowi.exilescala.persistence.ChangeSetDao
+import com.github.czelkowi.exilescala.schedulers.FixedIntervalScheduler
+
+import scala.concurrent.Future
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
   * @author : Corey
   * @since : 4/23/2017 11:06 AM
   */
-object ExileMain {
+object ExileMain extends App {
 
-  def main() {
-    val latestChange = ChangeSetDao.getLatestChange
-    try {
-      println(latestChange.get._id)
-    } catch {
-      case e: Exception => println("No Change Found...")
+  def process: Future[Boolean] = {
+    Future {
+      val latestChange = ChangeSetDao.getLatestChange
+      if (latestChange.nonEmpty) true
+      else false
     }
   }
+
+  FixedIntervalScheduler.runAtFixedInterval(5000, process)
 
 }

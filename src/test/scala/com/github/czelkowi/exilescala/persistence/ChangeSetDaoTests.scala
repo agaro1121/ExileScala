@@ -1,8 +1,8 @@
-package com.github.czelkowi.exilescala.mongo
+package com.github.czelkowi.exilescala.persistence
 
 import java.util.Date
 
-import com.github.czelkowi.exilescala.model.ChangeSet
+import com.github.czelkowi.exilescala.models.ChangeSet
 import org.junit.runner.RunWith
 import org.scalatest.Matchers.{equal, _}
 import org.scalatest._

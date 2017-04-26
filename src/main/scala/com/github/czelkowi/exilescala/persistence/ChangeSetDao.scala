@@ -1,20 +1,26 @@
-package com.github.czelkowi.exilescala.mongo
+package com.github.czelkowi.exilescala.persistence
+
+import java.util.concurrent.TimeUnit
 
 import com.github.czelkowi.exilescala.converters.ChangeSetMongoConverter
-import com.github.czelkowi.exilescala.model.ChangeSet
-import com.github.czelkowi.exilescala.model.ChangeSet._
+import com.github.czelkowi.exilescala.models.ChangeSet
+import com.github.czelkowi.exilescala.models.ChangeSet._
 import com.mongodb.casbah.commons.MongoDBObject
-import com.mongodb.casbah.{MongoClient, MongoClientURI, MongoCollection, MongoDB}
+import com.mongodb.casbah._
 import com.mongodb.{DBObject, WriteResult}
+
+import scala.concurrent.duration.Duration
 
 /**
   * @author : Corey
   * @since : 4/23/2017 1:55 PM
   */
 object ChangeSetDao {
-  private val uri = """mongodb://localhost:27017/"""
-  val db: MongoDB = MongoClient(MongoClientURI(uri))( """public-stash-api""")
-  val collection: MongoCollection = db("changeSets")
+
+  private val uri = "mongodb://localhost:27017/"
+  private val database = "public-stash-api"
+  private val db: MongoDB = MongoClient(MongoClientURI(uri))(database)
+  private val collection: MongoCollection = db("changeSets")
 
   def insert(changeSet: ChangeSet): WriteResult = {
     collection.insert(ChangeSetMongoConverter.convertToMongoObject(changeSet))
@@ -35,12 +41,13 @@ object ChangeSetDao {
   }
 
   def getLatestChange: Option[ChangeSet] = {
-    convertFromMongo(collection
-      .find(MongoDBObject("_id" -> MongoDBObject("$exists" -> true)))
-      .sort(MongoDBObject("timestamp" -> -1))
-      .limit(1)
-      .toList
-      .headOption)
+    convertFromMongo(
+      collection.findOne(
+        MongoDBObject("_id" -> MongoDBObject("$exists" -> true)),
+        MongoDBObject.empty, //No projection filter
+        MongoDBObject("timestamp" -> -1)
+      )
+    )
   }
 
   private def convertFromMongo(dbObj: Option[DBObject]): Option[ChangeSet] = {

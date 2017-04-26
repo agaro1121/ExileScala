@@ -1,4 +1,4 @@
-package com.github.czelkowi.exilescala.model
+package com.github.czelkowi.exilescala.models
 
 import java.util.Date
 
