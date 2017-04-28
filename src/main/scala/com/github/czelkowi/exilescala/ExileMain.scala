@@ -1,7 +1,8 @@
 package com.github.czelkowi.exilescala
 
 import akka.actor.{ActorRef, ActorSystem, Props}
-import com.github.czelkowi.exilescala.actors.DrivingActor
+import akka.stream.ActorMaterializer
+import com.github.czelkowi.exilescala.actors.{DataStoreActor, DrivingActor, PollingActor, ProcessingActor}
 
 /**
   * @author : Corey
@@ -9,8 +10,12 @@ import com.github.czelkowi.exilescala.actors.DrivingActor
   */
 object ExileMain extends App {
 
-  val system = ActorSystem("ExileSystem")
-  val drivingActor: ActorRef = system.actorOf(Props[DrivingActor], "DrivingActor")
+  implicit val system = ActorSystem("ExileSystem")
+  implicit val mat = ActorMaterializer()
+  val dataStoreActor: ActorRef = system.actorOf(Props[DataStoreActor], "DataStoreActor")
+  val drivingActor: ActorRef = system.actorOf(Props(new DrivingActor(dataStoreActor, pollingActor)), "DrivingActor")
+  val processingActor: ActorRef = system.actorOf(Props(new ProcessingActor(dataStoreActor)), "ProcessingActor")
+  val pollingActor: ActorRef = system.actorOf(Props(new PollingActor(drivingActor, processingActor)), "PollingActor")
 
   drivingActor ! -1
 

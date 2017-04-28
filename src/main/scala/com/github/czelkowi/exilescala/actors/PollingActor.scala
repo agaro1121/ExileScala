@@ -11,19 +11,24 @@ import scala.concurrent.Future
 import scala.util.{Failure, Success}
 
 /**
-  * @author : Corey
-  * @since : 4/27/2017 6:51 PM
-  */
-class PollingActor extends Actor {
+ * @author : Corey
+ * @since : 4/27/2017 6:51 PM
+ */
+class PollingActor(
+  val drivingActor: ActorRef,
+  val processingActor: ActorRef
+)(implicit val mat: ActorMaterializer) extends Actor {
 
-  implicit val actorSystem = ActorSystem("ExileSystem")
-  implicit val materializer = ActorMaterializer()
+  //  implicit val actorSystem = ActorSystem("ExileSystem")
+  //  implicit val materializer = ActorMaterializer()
 
-  val system = ActorSystem("ExileSystem")
-  val drivingActor: ActorRef = system.actorOf(Props[DrivingActor], "DrivingActor")
-  val processingActor: ActorRef = system.actorOf(Props[ProcessingActor], "ProcessingActor")
+  //  val system = ActorSystem("ExileSystem")
+  //  val drivingActor: ActorRef = system.actorOf(Props[DrivingActor], "DrivingActor")
+  //  val processingActor: ActorRef = system.actorOf(Props[ProcessingActor], "ProcessingActor")
 
   val pathOfExileUrl = "http://www.pathofexile.com/api/public-stash-tabs"
+
+  import context.system //gets implicitly passed into `Http()`
 
   override def receive: PartialFunction[Any, Unit] = {
     case -1 => requestData()
