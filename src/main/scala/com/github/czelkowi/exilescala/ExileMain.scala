@@ -13,11 +13,11 @@ object ExileMain extends App {
   implicit val system = ActorSystem("ExileSystem")
   implicit val mat = ActorMaterializer()
   val dataStoreActor: ActorRef = system.actorOf(Props[DataStoreActor], "DataStoreActor")
-  val drivingActor: ActorRef = system.actorOf(Props(new DrivingActor(dataStoreActor, pollingActor)), "DrivingActor")
+  val drivingActor: ActorRef = system.actorOf(Props(new DrivingActor(dataStoreActor)), "DrivingActor")
   val processingActor: ActorRef = system.actorOf(Props(new ProcessingActor(dataStoreActor)), "ProcessingActor")
   val pollingActor: ActorRef = system.actorOf(Props(new PollingActor(drivingActor, processingActor)), "PollingActor")
 
-  drivingActor ! -1
+  drivingActor ! DrivingActor.NegativeOne(-1, pollingActor)
   drivingActor ! DrivingActor.Id("string", pollingActor)
 
 }

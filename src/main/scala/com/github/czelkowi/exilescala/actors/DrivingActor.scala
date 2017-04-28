@@ -5,17 +5,17 @@ import akka.actor.{Actor, ActorRef}
 
 object DrivingActor {
   case class Id(id: String, pollingActor: ActorRef)
+  case class NegativeOne(n: Int, pollingActor: ActorRef)
 }
 
 class DrivingActor(
-  val dataStoreActor: ActorRef,
-  val pollingActor: ActorRef
+  val dataStoreActor: ActorRef
 ) extends Actor {
 
   import DrivingActor._
 
   override def receive: PartialFunction[Any, Unit] = {
-    case -1 => {
+    case NegativeOne(n, pollingActor) if n == -1 => {
       println("Invoking the PollingActor with no ID.")
       pollingActor ! -1
     }
