@@ -1,10 +1,7 @@
 package com.github.czelkowi.exilescala
 
-import com.github.czelkowi.exilescala.persistence.ChangeSetDao
-import com.github.czelkowi.exilescala.schedulers.FixedIntervalScheduler
-
-import scala.concurrent.Future
-import scala.concurrent.ExecutionContext.Implicits.global
+import akka.actor.{ActorRef, ActorSystem, Props}
+import com.github.czelkowi.exilescala.actors.DrivingActor
 
 /**
   * @author : Corey
@@ -12,14 +9,9 @@ import scala.concurrent.ExecutionContext.Implicits.global
   */
 object ExileMain extends App {
 
-  def process: Future[Boolean] = {
-    Future {
-      val latestChange = ChangeSetDao.getLatestChange
-      if (latestChange.nonEmpty) true
-      else false
-    }
-  }
+  val system = ActorSystem("ExileSystem")
+  val drivingActor: ActorRef = system.actorOf(Props[DrivingActor], "DrivingActor")
 
-  FixedIntervalScheduler.runAtFixedInterval(5000, process)
+  drivingActor ! -1
 
 }

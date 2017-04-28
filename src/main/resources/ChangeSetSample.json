@@ -1,0 +1,1807 @@
+{
+  "next_change_id": "2524-4136-3306-4292-1278",
+  "stashes": [
+    {
+      "accountName": "Smallmimi",
+      "lastCharacterName": "",
+      "id": "fde1f01750f19d08154c6f481554ae20ead70d9077355f7a81ed95c54bf3ca9c",
+      "stash": "R",
+      "stashType": "PremiumStash",
+      "items": [],
+      "public": false
+    },
+    {
+      "accountName": "Josh1985",
+      "lastCharacterName": "Queen_of_the_Skulls",
+      "id": "f73579a0226155a98e8fdc2b027556c68e1260d0977538d1697c0b458b76929a",
+      "stash": "~b\/o 1 chaos",
+      "stashType": "PremiumStash",
+      "items": [
+        {
+          "verified": false,
+          "w": 2,
+          "h": 3,
+          "ilvl": 15,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrInt2A.png?scale=1&w=2&h=3&v=76640dd58584a7786df8d02eadd36bbb3",
+          "league": "Hardcore",
+          "id": "d4a09b8c1a04ea3a67bc8b492fcd6d6f29888f07138621957fdd6540893f903f",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "S"
+            },
+            {
+              "group": 1,
+              "attr": "S"
+            },
+            {
+              "group": 2,
+              "attr": "S"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Beast Ward",
+          "typeLine": "Chainmail Tunic",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Armour",
+              "values": [
+                [
+                  "39",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 16
+            },
+            {
+              "name": "Energy Shield",
+              "values": [
+                [
+                  "12",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 18
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "8",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Str",
+              "values": [
+                [
+                  "16",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "16",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "explicitMods": [
+            "10% increased Armour and Energy Shield",
+            "+23 to maximum Life",
+            "+7% to Lightning Resistance",
+            "17% increased Stun and Block Recovery"
+          ],
+          "frameType": 2,
+          "x": 0,
+          "y": 7,
+          "inventoryId": "Stash1",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 64,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStr8.png?scale=1&w=2&h=2&v=d6983597c3725deb605d48ae00f6aaee3",
+          "league": "Hardcore",
+          "id": "83a8ca1f597876e15797a8032bd9d0c0e1c1b2b9e0b2fcb4189aa6663da1f920",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Dusk Guardian",
+          "typeLine": "Samite Helmet",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Armour",
+              "values": [
+                [
+                  "583",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 16
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "55",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Str",
+              "values": [
+                [
+                  "114",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "explicitMods": [
+            "+232 to Accuracy Rating",
+            "143% increased Armour",
+            "+74 to maximum Life",
+            "14% increased Stun and Block Recovery",
+            "10% increased Light Radius"
+          ],
+          "frameType": 2,
+          "x": 0,
+          "y": 10,
+          "inventoryId": "Stash2",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 31,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrInt3.png?scale=1&w=2&h=2&v=3ca9bf635d09f26ef27ad85b922fd5e83",
+          "league": "Hardcore",
+          "id": "079bf4029b5be4872be1439fd7130c2f2fa1cfbfb2996f2493c137a2d5ce172f",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "I"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Nemesis Dash",
+          "typeLine": "Mesh Boots",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Armour",
+              "values": [
+                [
+                  "51",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 16
+            },
+            {
+              "name": "Energy Shield",
+              "values": [
+                [
+                  "15",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 18
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "28",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Str",
+              "values": [
+                [
+                  "28",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "28",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "explicitMods": [
+            "14% increased Armour and Energy Shield",
+            "+57 to maximum Life",
+            "10% increased Rarity of Items found",
+            "+15% to Fire Resistance",
+            "21% increased Stun and Block Recovery"
+          ],
+          "frameType": 2,
+          "x": 0,
+          "y": 5,
+          "inventoryId": "Stash3",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 1,
+          "ilvl": 17,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea3633",
+          "league": "Hardcore",
+          "id": "9a5cafeda3b461543baa9b710a4573cd4311f6d7e18712f1e85229477745f870",
+          "sockets": [],
+          "name": "<<set:MS>><<set:M>><<set:S>>Nemesis Trap",
+          "typeLine": "Leather Belt",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "8",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "implicitMods": [
+            "+37 to maximum Life"
+          ],
+          "explicitMods": [
+            "1.1 Life Regenerated per second",
+            "+2 to maximum Energy Shield",
+            "17% reduced Flask Charges used",
+            "12% increased Flask Mana Recovery rate"
+          ],
+          "frameType": 2,
+          "x": 6,
+          "y": 3,
+          "inventoryId": "Stash4",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 68,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetInt10.png?scale=1&w=2&h=2&v=95b3b9abd4831891cb01ceead65b055a3",
+          "league": "Hardcore",
+          "id": "abe48c702ac0632a94fb43a9b4514add8103ccdd821ab0eab258e83c1b218880",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "I"
+            }
+          ],
+          "name": "",
+          "typeLine": "<<set:MS>><<set:M>><<set:S>>Pulsing Mind Cage of the Sage",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Quality",
+              "values": [
+                [
+                  "+20%",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 6
+            },
+            {
+              "name": "Energy Shield",
+              "values": [
+                [
+                  "139",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 18
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "65",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "138",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "explicitMods": [
+            "+36 to Intelligence",
+            "+25 to maximum Energy Shield"
+          ],
+          "frameType": 1,
+          "x": 4,
+          "y": 7,
+          "inventoryId": "Stash5",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 48,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Claws\/Claw3.png?scale=1&w=2&h=2&v=5b15957ce4ee4a4bc0b2849647ec9b783",
+          "league": "Hardcore",
+          "id": "635e22e245531f028790567ecc37c5a71fce2aa96afb90951f580d3d9c70ee3d",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Pain Song",
+          "typeLine": "Gouger",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Claw",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Physical Damage",
+              "values": [
+                [
+                  "13-46",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 9
+            },
+            {
+              "name": "Elemental Damage",
+              "values": [
+                [
+                  "35-56",
+                  4
+                ],
+                [
+                  "27-49",
+                  5
+                ],
+                [
+                  "2-42",
+                  6
+                ]
+              ],
+              "displayMode": 0,
+              "type": 10
+            },
+            {
+              "name": "Critical Strike Chance",
+              "values": [
+                [
+                  "6.30%",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 12
+            },
+            {
+              "name": "Attacks per Second",
+              "values": [
+                [
+                  "1.50",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 13
+            },
+            {
+              "name": "Weapon Range",
+              "values": [
+                [
+                  "9",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 14
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "40",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Dex",
+              "values": [
+                [
+                  "70",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "70",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "implicitMods": [
+            "+13 Life gained for each Enemy hit by Attacks"
+          ],
+          "explicitMods": [
+            "Adds 35 to 56 Fire Damage",
+            "Adds 27 to 49 Cold Damage",
+            "Adds 2 to 42 Lightning Damage",
+            "+3 Mana gained on Kill"
+          ],
+          "frameType": 2,
+          "x": 8,
+          "y": 2,
+          "inventoryId": "Stash6",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 69,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Claws\/Claw2.png?scale=1&w=2&h=2&v=13a717e8db4f740348e01c17e7669b8e3",
+          "league": "Hardcore",
+          "id": "6d013606c436d9effbc37d3f0e945bd76c7fbc63a287ada6c2f76b60a1f6f78c",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "S"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Rune Hunger",
+          "typeLine": "Great White Claw",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Claw",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Physical Damage",
+              "values": [
+                [
+                  "27-70",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 9
+            },
+            {
+              "name": "Elemental Damage",
+              "values": [
+                [
+                  "42-86",
+                  4
+                ],
+                [
+                  "11-133",
+                  6
+                ]
+              ],
+              "displayMode": 0,
+              "type": 10
+            },
+            {
+              "name": "Critical Strike Chance",
+              "values": [
+                [
+                  "6.50%",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 12
+            },
+            {
+              "name": "Attacks per Second",
+              "values": [
+                [
+                  "1.30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 13
+            },
+            {
+              "name": "Weapon Range",
+              "values": [
+                [
+                  "9",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 14
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "58",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Dex",
+              "values": [
+                [
+                  "81",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "117",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "implicitMods": [
+            "+34 Life gained for each Enemy hit by Attacks"
+          ],
+          "explicitMods": [
+            "+2 to Level of Socketed Melee Gems",
+            "Adds 42 to 86 Fire Damage",
+            "Adds 11 to 133 Lightning Damage",
+            "46% increased Mana Regeneration Rate"
+          ],
+          "frameType": 2,
+          "x": 6,
+          "y": 7,
+          "inventoryId": "Stash7",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 1,
+          "ilvl": 70,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt1.png?scale=1&w=2&h=1&v=a40ff49a65beb9e722af0f85159432f13",
+          "league": "Hardcore",
+          "id": "0406ed81bf7d62a53b3c20ad39219d105387690e2aae265f30eca0e50225952a",
+          "sockets": [],
+          "name": "<<set:MS>><<set:M>><<set:S>>Mind Bond",
+          "typeLine": "Rustic Sash",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "40",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "implicitMods": [
+            "16% increased Physical Damage"
+          ],
+          "explicitMods": [
+            "+16 to Armour",
+            "+73 to maximum Life",
+            "+29 to maximum Energy Shield",
+            "+20% to Fire Resistance",
+            "+13% to Lightning Resistance"
+          ],
+          "frameType": 2,
+          "x": 6,
+          "y": 11,
+          "inventoryId": "Stash8",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 70,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldDexInt5.png?scale=1&w=2&h=2&v=4a7c4507f13edb9bc7f21c5ef005631a3",
+          "league": "Hardcore",
+          "id": "8d3de065f74f1dd8f6b5fe1e0f043ca0d165fce77c0ddf0e594c0e808dc9a19d",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "D"
+            },
+            {
+              "group": 0,
+              "attr": "S"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Gloom Mark",
+          "typeLine": "Supreme Spiked Shield",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Chance to Block",
+              "values": [
+                [
+                  "24%",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 15
+            },
+            {
+              "name": "Evasion Rating",
+              "values": [
+                [
+                  "436",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 17
+            },
+            {
+              "name": "Energy Shield",
+              "values": [
+                [
+                  "76",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 18
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "70",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Dex",
+              "values": [
+                [
+                  "85",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "85",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "implicitMods": [
+            "Reflects 259 Physical Damage to Melee Attackers"
+          ],
+          "explicitMods": [
+            "+24 to Dexterity",
+            "+147 to Evasion Rating",
+            "22% increased Evasion and Energy Shield",
+            "+44 to maximum Life",
+            "+35% to Fire Resistance",
+            "+39% to Lightning Resistance",
+            "8% increased Stun and Block Recovery"
+          ],
+          "frameType": 2,
+          "x": 0,
+          "y": 0,
+          "inventoryId": "Stash9",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 1,
+          "h": 3,
+          "ilvl": 41,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Wands\/Wand6.png?scale=1&w=1&h=3&v=54ba351a078c22737d02dfcec84665853",
+          "league": "Hardcore",
+          "id": "a53fed381666c54bc0bad53e59c7c7fcb742a0074635e2a3cdc6bbd01815522a",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "D"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Brood Goad",
+          "typeLine": "Sage Wand",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Wand",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Physical Damage",
+              "values": [
+                [
+                  "23-46",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 9
+            },
+            {
+              "name": "Critical Strike Chance",
+              "values": [
+                [
+                  "9.00%",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 12
+            },
+            {
+              "name": "Attacks per Second",
+              "values": [
+                [
+                  "1.20",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 13
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "30",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "119",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "implicitMods": [
+            "14% increased Spell Damage"
+          ],
+          "explicitMods": [
+            "22% increased Spell Damage",
+            "Adds 8 to 18 Physical Damage",
+            "Adds 5 to 12 Cold Damage to Spells",
+            "29% increased Mana Regeneration Rate"
+          ],
+          "frameType": 2,
+          "x": 8,
+          "y": 7,
+          "inventoryId": "Stash10",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 1,
+          "h": 3,
+          "ilvl": 29,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Wands\/Wand5.png?scale=1&w=1&h=3&v=1693f03dab28c272223acf156ce9107e3",
+          "league": "Hardcore",
+          "id": "02b97866fd4712738dbde3b5062a06fb80497dbb593f699fbd02e3ea1a3174ae",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Kraken Branch",
+          "typeLine": "Spiraled Wand",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Wand",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Physical Damage",
+              "values": [
+                [
+                  "8-24",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 9
+            },
+            {
+              "name": "Critical Strike Chance",
+              "values": [
+                [
+                  "8.00%",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 12
+            },
+            {
+              "name": "Attacks per Second",
+              "values": [
+                [
+                  "1.30",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 13
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "24",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "83",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "implicitMods": [
+            "11% increased Spell Damage"
+          ],
+          "explicitMods": [
+            "6% increased Cold Damage",
+            "Adds 14 to 27 Fire Damage to Spells",
+            "31% increased Mana Regeneration Rate",
+            "+6 Life gained on Kill"
+          ],
+          "frameType": 2,
+          "x": 2,
+          "y": 6,
+          "inventoryId": "Stash11",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 56,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDex4.png?scale=1&w=2&h=2&v=62a68c142ba5a605dcf6b6603bf0ab0c3",
+          "league": "Hardcore",
+          "id": "abedd7738e9f085770d7ce7683b1c8267c31a7d03efec1d3dd701a71dac58688",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "D"
+            },
+            {
+              "group": 0,
+              "attr": "D"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Dire Road",
+          "typeLine": "Shagreen Boots",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Evasion Rating",
+              "values": [
+                [
+                  "157",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 17
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "55",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Dex",
+              "values": [
+                [
+                  "97",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "explicitMods": [
+            "2.6 Life Regenerated per second",
+            "+34% to Cold Resistance",
+            "+11% to Lightning Resistance",
+            "25% increased Movement Speed"
+          ],
+          "frameType": 2,
+          "x": 6,
+          "y": 9,
+          "inventoryId": "Stash12",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 34,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStr4.png?scale=1&w=2&h=2&v=e26e440ce9b34d249004f0c063d3fe123",
+          "league": "Hardcore",
+          "id": "9f4398f4aacdb1597d0af90a00dd5dad1df2586351add0fe1a5dc966bb75824d",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "S"
+            },
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 1,
+              "attr": "S"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Invasion Slippers",
+          "typeLine": "Reinforced Greaves",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Armour",
+              "values": [
+                [
+                  "106",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 16
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "33",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Str",
+              "values": [
+                [
+                  "60",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "explicitMods": [
+            "12% increased Armour",
+            "+56 to maximum Life",
+            "+18% to Fire Resistance",
+            "+13% to Lightning Resistance"
+          ],
+          "frameType": 2,
+          "x": 2,
+          "y": 4,
+          "inventoryId": "Stash13",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 1,
+          "h": 3,
+          "ilvl": 14,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Wands\/Wand3.png?scale=1&w=1&h=3&v=ac9f7eee09f5a8f580151298712f2a9e3",
+          "league": "Hardcore",
+          "id": "193a8aac22592dd8d275cbfda552848f3b69be7941b3f6eb30e529d04a949c39",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "D"
+            },
+            {
+              "group": 0,
+              "attr": "I"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Havoc Edge",
+          "typeLine": "Carved Wand",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Wand",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Physical Damage",
+              "values": [
+                [
+                  "6-11",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 9
+            },
+            {
+              "name": "Critical Strike Chance",
+              "values": [
+                [
+                  "8.00%",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 12
+            },
+            {
+              "name": "Attacks per Second",
+              "values": [
+                [
+                  "1.50",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 13
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "12",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "47",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "implicitMods": [
+            "10% increased Spell Damage"
+          ],
+          "explicitMods": [
+            "+1 to Level of Socketed Cold Gems",
+            "+16 to Intelligence",
+            "Adds 5 to 11 Cold Damage to Spells",
+            "+6 Life gained on Kill"
+          ],
+          "frameType": 2,
+          "x": 9,
+          "y": 4,
+          "inventoryId": "Stash14",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 1,
+          "ilvl": 45,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae3",
+          "league": "Hardcore",
+          "id": "ea0b8a0cb8fe1db0c45fcc061099ea43edf4a63aef864c8efd5056cddf6106e7",
+          "sockets": [],
+          "name": "<<set:MS>><<set:M>><<set:S>>Viper Girdle",
+          "typeLine": "Cloth Belt",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "35",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            }
+          ],
+          "implicitMods": [
+            "23% increased Stun and Block Recovery"
+          ],
+          "explicitMods": [
+            "29% increased Elemental Damage with Weapons",
+            "+29 to Strength",
+            "+23 to maximum Life",
+            "1.5 Life Regenerated per second",
+            "+2 to maximum Energy Shield"
+          ],
+          "frameType": 2,
+          "x": 10,
+          "y": 11,
+          "inventoryId": "Stash15",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 3,
+          "ilvl": 48,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDexInt1B.png?scale=1&w=2&h=3&v=9e72d3b4ad8744fcd79007e4bba8d5db3",
+          "league": "Hardcore",
+          "id": "364b4179048d4d897c2baa2298a24c844775b677f95c6cf4d1d2e87be3ecab17",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "D"
+            },
+            {
+              "group": 1,
+              "attr": "S"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Empyrean Shelter",
+          "typeLine": "Quilted Jacket",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Evasion Rating",
+              "values": [
+                [
+                  "275",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 17
+            },
+            {
+              "name": "Energy Shield",
+              "values": [
+                [
+                  "47",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 18
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "40",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Dex",
+              "values": [
+                [
+                  "60",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "60",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "explicitMods": [
+            "+117 to Evasion Rating",
+            "+73 to maximum Life",
+            "+23 to maximum Mana",
+            "+10% to Fire Resistance"
+          ],
+          "frameType": 2,
+          "x": 6,
+          "y": 4,
+          "inventoryId": "Stash16",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 6,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldInt1.png?scale=1&w=2&h=2&v=e24278f35761b9fe9c7341e1215d59243",
+          "league": "Hardcore",
+          "id": "6c9c0361b1098f58001c05d7b8d44569330824d55da2dfe2eaaf55736f7dd4db",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "D"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Mind Call",
+          "typeLine": "Twig Spirit Shield",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Chance to Block",
+              "values": [
+                [
+                  "22%",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 15
+            },
+            {
+              "name": "Energy Shield",
+              "values": [
+                [
+                  "10",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 18
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "2",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "15",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "implicitMods": [
+            "10% increased Spell Damage"
+          ],
+          "explicitMods": [
+            "10% increased Spell Damage",
+            "+5 to maximum Energy Shield",
+            "+11% to Cold Resistance",
+            "+8% to Lightning Resistance"
+          ],
+          "frameType": 2,
+          "x": 8,
+          "y": 0,
+          "inventoryId": "Stash17",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 1,
+          "h": 3,
+          "ilvl": 42,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Daggers\/Dagger4.png?scale=1&w=1&h=3&v=73f07b51d53c87085bc93c1eb8a23a283",
+          "league": "Hardcore",
+          "id": "d7633a8d93bf555944d717c7b2801416fee077b09602b77bdda5a8d361615393",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 0,
+              "attr": "D"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Sorrow Edge",
+          "typeLine": "Poignard",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Dagger",
+              "values": [],
+              "displayMode": 0
+            },
+            {
+              "name": "Physical Damage",
+              "values": [
+                [
+                  "20-80",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 9
+            },
+            {
+              "name": "Elemental Damage",
+              "values": [
+                [
+                  "22-39",
+                  5
+                ]
+              ],
+              "displayMode": 0,
+              "type": 10
+            },
+            {
+              "name": "Critical Strike Chance",
+              "values": [
+                [
+                  "7.74%",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 12
+            },
+            {
+              "name": "Attacks per Second",
+              "values": [
+                [
+                  "1.50",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 13
+            },
+            {
+              "name": "Weapon Range",
+              "values": [
+                [
+                  "8",
+                  0
+                ]
+              ],
+              "displayMode": 0,
+              "type": 14
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "41",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Dex",
+              "values": [
+                [
+                  "72",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "72",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "implicitMods": [
+            "40% increased Global Critical Strike Chance"
+          ],
+          "explicitMods": [
+            "66% increased Physical Damage",
+            "Adds 22 to 39 Cold Damage",
+            "73% increased Critical Strike Chance for Spells",
+            "23% increased Critical Strike Chance",
+            "+21 to maximum Mana",
+            "+22% to Fire Resistance"
+          ],
+          "frameType": 2,
+          "x": 8,
+          "y": 4,
+          "inventoryId": "Stash18",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 3,
+          "ilvl": 51,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStr1C.png?scale=1&w=2&h=3&v=890da62b76971297e9eacccd44123e993",
+          "league": "Hardcore",
+          "id": "a231dadfb9ca379d13ca16aabf5d4e7a542806517b72142bde9920952674de3d",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "S"
+            },
+            {
+              "group": 0,
+              "attr": "S"
+            },
+            {
+              "group": 0,
+              "attr": "S"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Behemoth Veil",
+          "typeLine": "Sun Plate",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Armour",
+              "values": [
+                [
+                  "486",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 16
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "45",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Str",
+              "values": [
+                [
+                  "124",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "explicitMods": [
+            "51% increased Armour",
+            "+28% to Cold Resistance",
+            "+27% to Lightning Resistance",
+            "11% increased Stun and Block Recovery"
+          ],
+          "frameType": 2,
+          "x": 4,
+          "y": 9,
+          "inventoryId": "Stash19",
+          "socketedItems": []
+        },
+        {
+          "verified": false,
+          "w": 2,
+          "h": 2,
+          "ilvl": 32,
+          "icon": "http:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesDexInt3.png?scale=1&w=2&h=2&v=559c119664070970cfbdc8203425aa763",
+          "league": "Hardcore",
+          "id": "a8a8e087c149b2b97bfd4265a583afb28217a3f20ff1e225f789e5dbee9e0522",
+          "sockets": [
+            {
+              "group": 0,
+              "attr": "I"
+            },
+            {
+              "group": 1,
+              "attr": "I"
+            },
+            {
+              "group": 1,
+              "attr": "D"
+            }
+          ],
+          "name": "<<set:MS>><<set:M>><<set:S>>Brimstone Touch",
+          "typeLine": "Clasped Mitts",
+          "identified": true,
+          "corrupted": false,
+          "lockedToCharacter": false,
+          "properties": [
+            {
+              "name": "Evasion Rating",
+              "values": [
+                [
+                  "70",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 17
+            },
+            {
+              "name": "Energy Shield",
+              "values": [
+                [
+                  "21",
+                  1
+                ]
+              ],
+              "displayMode": 0,
+              "type": 18
+            }
+          ],
+          "requirements": [
+            {
+              "name": "Level",
+              "values": [
+                [
+                  "31",
+                  0
+                ]
+              ],
+              "displayMode": 0
+            },
+            {
+              "name": "Dex",
+              "values": [
+                [
+                  "25",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            },
+            {
+              "name": "Int",
+              "values": [
+                [
+                  "25",
+                  0
+                ]
+              ],
+              "displayMode": 1
+            }
+          ],
+          "explicitMods": [
+            "12% increased Attack Speed",
+            "+30 to maximum Life",
+            "3.6 Life Regenerated per second",
+            "+19% to Fire Resistance"
+          ],
+          "craftedMods": [
+            "42% increased Evasion and Energy Shield"
+          ],
+          "frameType": 2,
+          "x": 4,
+          "y": 5,
+          "inventoryId": "Stash33",
+          "socketedItems": []
+        }
+      ],
+      "public": true
+    }
+  ]
+}
