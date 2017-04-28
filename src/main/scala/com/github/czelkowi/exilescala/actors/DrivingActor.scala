@@ -1,22 +1,25 @@
 package com.github.czelkowi.exilescala.actors
 
-import akka.actor.{Actor, ActorRef, ActorSystem, Props}
+import akka.actor.{Actor, ActorRef}
 
-/**
- * @author : Corey
- * @since : 4/27/2017 7:30 PM
- */
+
+object DrivingActor {
+  case class Id(id: String, pollingActor: ActorRef)
+}
+
 class DrivingActor(
   val dataStoreActor: ActorRef,
   val pollingActor: ActorRef
 ) extends Actor {
+
+  import DrivingActor._
 
   override def receive: PartialFunction[Any, Unit] = {
     case -1 => {
       println("Invoking the PollingActor with no ID.")
       pollingActor ! -1
     }
-    case id: String => {
+    case Id(id, pollingActor) => {
       println(s"Invoking the PollingActor with ID $id")
       pollingActor ! id
     }

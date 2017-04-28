@@ -18,5 +18,6 @@ object ExileMain extends App {
   val pollingActor: ActorRef = system.actorOf(Props(new PollingActor(drivingActor, processingActor)), "PollingActor")
 
   drivingActor ! -1
+  drivingActor ! DrivingActor.Id("string", pollingActor)
 
 }
