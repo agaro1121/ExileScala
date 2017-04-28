@@ -3,14 +3,13 @@ package com.github.czelkowi.exilescala.actors
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 
 /**
-  * @author : Corey
-  * @since : 4/27/2017 7:30 PM
-  */
-class DrivingActor extends Actor {
-
-  val system = ActorSystem("ExileSystem")
-  var dataStoreActor: ActorRef = system.actorOf(Props[DataStoreActor], "DataStoreActor")
-  val pollingActor: ActorRef = system.actorOf(Props[PollingActor], "PollingActor")
+ * @author : Corey
+ * @since : 4/27/2017 7:30 PM
+ */
+class DrivingActor(
+  val dataStoreActor: ActorRef,
+  val pollingActor: ActorRef
+) extends Actor {
 
   override def receive: PartialFunction[Any, Unit] = {
     case -1 => {
